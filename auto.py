@@ -107,7 +107,7 @@ all_digits = [pygame.K_0, pygame.K_1, pygame.K_2, pygame.K_3, pygame.K_4, pygame
 
 while True:
     # Real time update to date & time
-    user_date = dtime.now().strftime('%a, %w %b %Y')
+    user_date = dtime.now().strftime('%a, %d %b %Y')
     user_time = dtime.now().strftime('%H:%M:%S')
     
     for event in pygame.event.get():
